@@ -1,0 +1,9 @@
+{
+  "version_id": "v5",
+  "tag": "5.28",
+  "model_type": "dsp",
+  "precision": "qasymm8",
+  "complier": "snpe1.39.0.2079",
+  "latency": "0",
+  "model_path": "/vendor/etc/saiv/image_understanding/db/aic_detector/aic_detector_cnn.dlc"
+}
