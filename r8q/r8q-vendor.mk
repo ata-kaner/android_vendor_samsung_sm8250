@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD01_FHD.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/samsung/r8q/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
+    vendor/samsung/r8q/proprietary/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/samsung/r8q/proprietary/vendor/etc/sensors/config/kona_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0.json \
@@ -1429,6 +1430,61 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.2.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.thermal@1.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/vintf-codecsolution-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vintf-codecsolution-V2-ndk_platform.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/r8q/proprietary/vendor/lib/libBlurDetectionDeepLearning.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBlurDetectionDeepLearning.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libEventFinder.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEventFinder.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libHDRVerifier_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHDRVerifier_v1.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libHumanSegVideoModel_Vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHumanSegVideoModel_Vendor.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libSingleTakeBlurDetection.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSingleTakeBlurDetection.uniplugin@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libevent_finder.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_finder.uniplugin@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libformatConverter.unifunc.so:$(TARGET_COPY_OUT_VENDOR    )/lib/libformatConverter.unifunc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libgaya.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgaya.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamicootf.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libheifcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheifcapture.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libimage_enhancement.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimage_enhancement.arcsoft.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libimagecodec_native.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimagecodec_native.quram.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libimgproc_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimgproc_sw.unifunc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libjpegQtable_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegQtable_interface.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libpantilt_detector.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpantilt_detector.uniplugin@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsaped.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaped.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsavsac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavsac.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsavscmn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavscmn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsavsvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsavsvc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsrib_CNNInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsrib_CNNInterface.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libsrib_humanaware_engine.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsrib_humanaware_engine.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/libtensorflowLite.singletake.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtensorflowLite.singletake.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.postproc@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libBlurDetectionDeepLearning.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBlurDetectionDeepLearning.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libEventFinder.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEventFinder.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libHDRVerifier_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHDRVerifier_v1.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libHumanSegVideoModel_Vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHumanSegVideoModel_Vendor.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamic.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrdynamicootf.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libheifcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheifcapture.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libimgproc_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimgproc_sw.unifunc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsaped.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsaped.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsavsac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavsac.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsavscmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavscmn.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsavsvc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsavsvc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsnap_v1.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_v1.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsrib_CNNInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsrib_CNNInterface.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libsrib_humanaware_engine.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsrib_humanaware_engine.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libtensorflowLite.singletake.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowLite.singletake.camera.samsung.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
