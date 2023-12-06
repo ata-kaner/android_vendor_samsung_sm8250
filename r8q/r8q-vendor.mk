@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/android.hardware.health@2.1-service-samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service-samsung \
-    vendor/samsung/r8q/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/r8q/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
@@ -95,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/android.hardware.health@2.1-service-samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service-samsung.rc \
-    vendor/samsung/r8q/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/fingerprint_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint_common.rc \
@@ -144,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/samsung/r8q/proprietary/vendor/etc/permissions/android.hardware.strongbox_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.strongbox_keystore.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/platform_boost/boost_cap.xml:$(TARGET_COPY_OUT_VENDOR)/etc/platform_boost/boost_cap.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/platform_boost/boost_mode.xml:$(TARGET_COPY_OUT_VENDOR)/etc/platform_boost/boost_mode.xml \
     vendor/samsung/r8q/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
