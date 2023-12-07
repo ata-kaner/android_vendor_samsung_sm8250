@@ -1183,6 +1183,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libjpegQtable_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegQtable_interface.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libjpegencoder_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegencoder_sw.unifunc.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
@@ -1336,6 +1337,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/lib64/libsocial_image_enhancement.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsocial_image_enhancement.uniplugin@1.0.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libsomxcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomxcmn.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
+    vendor/samsung/r8q/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeakercalibration.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/samsung/r8q/proprietary/vendor/lib64/libsrib_CNNInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsrib_CNNInterface.camera.samsung.so \
