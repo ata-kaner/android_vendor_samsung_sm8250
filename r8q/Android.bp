@@ -46,6 +46,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libkeymaster_helper",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libkeymaster_helper.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libskeymaster4device",
 	owner: "samsung",
 	strip: {
@@ -178,3 +195,15 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+cc_prebuilt_binary {
+	name: "android.hardware.keymaster@4.0-strongbox-service-qti",
+	owner: "samsung",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
