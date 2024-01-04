@@ -56,7 +56,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/bin/qrtr-ns:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-ns \
     vendor/samsung/r8q/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/r8q/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/samsung/r8q/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
+    vendor/samsung/r8q/proprietary/vendor/bin/sec_nvm:$(TARGET_COPY_OUT_VENDOR)/bin/sec_nvm \
     vendor/samsung/r8q/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
+    vendor/samsung/r8q/proprietary/vendor/bin/spdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/spdaemon \
     vendor/samsung/r8q/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/samsung/r8q/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
     vendor/samsung/r8q/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
@@ -108,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/r8q/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
+    vendor/samsung/r8q/proprietary/vendor/etc/init/init.spdaemon_wait_spunvm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.spdaemon_wait_spunvm.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/samsung/r8q/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
