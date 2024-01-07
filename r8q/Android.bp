@@ -207,3 +207,16 @@ cc_prebuilt_binary {
 	relative_install_path: "hw",
 	soc_specific: true,
 }
+
+cc_prebuilt_binary {
+	name: "android.hardware.gatekeeper@1.0-service",
+	owner: "samsung",
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service"],
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
